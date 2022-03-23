@@ -1,7 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: "mouradelhamri.github.io"
+jekyll serve --baseurl: "mouradelhamri.github.io"
 
 collections:
   projects:
