@@ -1,55 +1,62 @@
 experiences:
 
-- place: "Stanford"
-  time: "2020 - now"
-  title: "Postdoc"
-  subtitle: "MS&E"
+- place: "Sorbonne Paris Nord University"
+  time: "2019 - 2022"
+  title: "Graduate Teaching Assistant"
+  subtitle: "Department of Computer Science"
   category: "work"
 
-- place: "MIT"
-  time: "2014 - 2020"
-  title: "Ph.D. Student"
-  subtitle: "Media Lab, Laboratory for Social Machines"
+
+
+- place: "Sorbonne Paris Nord University"
+  time: "2019 - 2022"
+  title: "Ph.D. in Computer Science"
+  subtitle: "Thesis: Optimal Transport Theory for Domain Adaptation and Transfer Learning <br/> Thesis Advisor: Younès Bennani
   category: "school"
 
-- place: "Facebook"
-  time: "Summer 2019"
-  title: "Research Scientist, Intern"
-  subtitle: "Core Data Science"
+
+
+- place: "French National Centre for Scientific Research (CNRS)"
+  time: "Apr-Sep 2019"
+  title: "Research Intern"
+  subtitle: "Northern Paris Computer Science Lab (LIPN - CNRS UMR 7030) <br/> Mentors: Younès Benanni, Basarab Matei"
   category: "work"
 
-- place: "LinkedIn"
-  time: "Summer 2016"
-  title: "Research Scientist, Intern"
-  subtitle: "Experimentation Group"
-  category: "work"
 
-- place: "Amazon"
-  time: "Summer 2014"
-  title: "Machine Learning Scientist, Intern"
-  subtitle: "Scalable Machine Learning Group"
-  category: "work"
 
-- place: "Yahoo! Labs"
-  time: "Feb-Aug 2013"
-  title: "Research Scientist, Intern"
-  subtitle: "Social Media Engagement Group"
-  category: "work"
-
-- place: "EM-DMKM"
-  time: "Sep 2011 – Aug 2013"
-  title: "M.Sc. Student"
-  subtitle: "Masters in Data Mining and Knowledge Management <br/> Year 1: University Pierre et Marie Curie <br/> Year 2: Universitat Politecnica de Catalunya <br/>"
+- place: "Sorbonne Paris Nord University"
+  time: "2018 - 2019"
+  title: "MSc. in Machine Learning"
+  subtitle: "Thesis: Learning from Learners through Optimal Transport Theory <br/> Thesis Advisor: Younès Bennani"
   category: "school"
 
-- place: "Jozef Stefan Institute"
-  time: "Jan-Aug 2011"
-  title: "Research Assistant"
-  subtitle: "Department of Knowledge Technologies"
+
+
+- place: "Sidi Mohamed Ben Abdellah University"
+  time: "2017 - 2019"
+  title: "MSc. in Mathematics"
+  subtitle: "Speciality: Statistics"
+  category: "school"
+
+
+
+- place: "French National Centre for Scientific Research (CNRS)"
+  time: "Jan-Jul 2017"
+  title: "Research Intern"
+  subtitle: "Algebra, Geometry and Arithmetic Laboratory (LAGA - FSDM) <br/> Mentors: Siham Ezzouak"
   category: "work"
 
-- place: "Staffordshire University"
-  time: "2007 - 2010"
-  title: "B.Sc. Student"
-  subtitle: "Computing Science <br/> First Class Honours"
+
+
+- place: "Sidi Mohamed Ben Abdellah University"
+  time: "2014 - 2017"
+  title: "BSc. in Applied Mathematics"
+  subtitle: "Thesis: Elliptic-curve cryptography <br/> Thesis Advisor: Siham Ezzouak"
+  category: "school"
+
+
+
+- place: "Sidi Mohamed Ben Abdellah University"
+  time: "2014 - 2016"
+  title: "Asc. in Applied Mathematics"
   category: "school"
