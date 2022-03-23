@@ -1,14 +1,14 @@
 papers:
 
   - title: "An Optimal Transport Framework for Collaborative Multi-View Clustering"
-    authors: "<b>Fatima Ezzahraa Ben Bouazza</b>, Younès Bennani</b>, Mourad El Hamri"
+    authors: "Fatima Ezzahraa Ben Bouazza, Younès Bennani, <b>Mourad El Hamri</b>"
     venue: "Book chapter in Recent Advancements in Multi-View Data Analytics. 2022."
     paper_pdf: "https://link.springer.com/book/9783030952389"
     selected: y
 
 
   - title: "Inductive Semi-supervised Learning Through Optimal Transport"
-    authors: "<b>Mourad El Hamri</b>, Younès Bennani</b>, Issam Falih"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "ICONIP'21: International Conference on Neural Information Processing. 2021."
     paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-030-92307-5_78"
     arxiv: "https://arxiv.org/pdf/2112.07262.pdf"
@@ -16,21 +16,21 @@ papers:
     selected: y
 
   - title: "Apprentissage semi-supervisé transductif basé sur le transport optimal"
-    authors: "<b>Mourad El Hamri</b>, Younès Bennani</b>, Issam Falih"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "CIFSD'21: Conférence Internationale Francophone sur la Science des Données. 2021."
-    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9533521"
-    arxiv: "https://hal.archives-ouvertes.fr/hal-03274095/document#page=24"
+    paper_pdf: "https://hal.archives-ouvertes.fr/hal-03274095/document#page=24"
     selected: y
 
   - title: "Label Propagation Through Optimal Transport"
-    authors: "<b>Mourad El Hamri</b>, Younès Bennani</b>, Issam Falih"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "IJCNN'21: IEEE International Joint Conference on Neural Networks. 2021."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9533521"
     arxiv: "https://arxiv.org/pdf/2110.01446.pdf"
     code: "https://github.com/MouradElHamri/OTP"
     selected: y
 
   - title: "Multi-view Clustering Through Optimal Transport"
-    authors: "<b>Fatima Ezzahraa Ben Bouazza</b>, Younès Bennani</b>, Mourad El Hamri"
+    authors: "Fatima Ezzahraa Ben Bouazza, Younès Bennani, <b>Mourad El Hamri</b>"
     venue: "Australian Journal of Intelligent Information Processing Systems. 2019."
     paper_pdf: "http://ajiips.com.au/papers/V15.3/v15n3_5-13.pdf"
     selected: y

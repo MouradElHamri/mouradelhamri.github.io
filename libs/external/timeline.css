@@ -51,6 +51,7 @@
   position: relative;
   width: 370px;
   float: right;
+  text-align: left;
 }
 
 .flag-wrapper {

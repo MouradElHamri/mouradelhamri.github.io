@@ -7,17 +7,23 @@ experiences:
   category: "work"
 
 
-
+- place: "The Second University of Naples"
+  time: "2020 - 2022"
+  title: "Ph.D. in Statistics"
+  subtitle: "Joint International supervision with USPN <br/> Thesis Advisors: Rosanna Verde, Younès Bennani"
+  category: "school" 
+  
+  
 - place: "Sorbonne Paris Nord University"
   time: "2019 - 2022"
   title: "Ph.D. in Computer Science"
   subtitle: "Thesis: Optimal Transport Theory for Domain Adaptation and Transfer Learning <br/> Thesis Advisor: Younès Bennani"
   category: "school"
 
-- place: "French National Centre for Scientific Research (CNRS)"
+- place: "LIPN - CNRS UMR 7030"
   time: "Apr-Sep 2019"
   title: "Research Intern"
-  subtitle: "Northern Paris Computer Science Lab (LIPN - CNRS UMR 7030) <br/> Mentors: Younès Benanni, Basarab Matei"
+  subtitle: "French National Centre for Scientific Research <br/> Northern Paris Computer Science Lab <br/> Mentors: Younès Benanni, Basarab Matei"
   category: "work"
 
 
@@ -35,10 +41,10 @@ experiences:
   category: "school"
 
 
-- place: "French National Centre for Scientific Research (CNRS)"
+- place: "Algebra, Geometry and Arithmetic Lab"
   time: "Jan-Jul 2017"
   title: "Research Intern"
-  subtitle: "Algebra, Geometry and Arithmetic Laboratory (LAGA - FSDM) <br/> Mentors: Siham Ezzouak"
+  subtitle: "Mentor: Siham Ezzouak"
   category: "work"
 
 
