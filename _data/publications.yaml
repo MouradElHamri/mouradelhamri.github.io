@@ -36,8 +36,3 @@ papers:
     selected: y
 
 
-  - title: "Engaging Politically Diverse Audiences on Social Media"
-    authors: "<b>Martin Saveski</b>, Doug Beeferman, David McClure, Deb Roy"
-    venue: "ICWSM'22: International AAAI Conference on Web and Social Media. 2022."
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
-    selected: y
