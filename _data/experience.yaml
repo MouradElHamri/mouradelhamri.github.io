@@ -11,17 +11,14 @@ experiences:
 - place: "Sorbonne Paris Nord University"
   time: "2019 - 2022"
   title: "Ph.D. in Computer Science"
-  subtitle: "Thesis: Optimal Transport Theory for Domain Adaptation and Transfer Learning <br/> Thesis Advisor: Younès Bennani
+  subtitle: "Thesis: Optimal Transport Theory for Domain Adaptation and Transfer Learning <br/> Thesis Advisor: Younès Bennani"
   category: "school"
-
-
 
 - place: "French National Centre for Scientific Research (CNRS)"
   time: "Apr-Sep 2019"
   title: "Research Intern"
   subtitle: "Northern Paris Computer Science Lab (LIPN - CNRS UMR 7030) <br/> Mentors: Younès Benanni, Basarab Matei"
   category: "work"
-
 
 
 - place: "Sorbonne Paris Nord University"
@@ -31,13 +28,11 @@ experiences:
   category: "school"
 
 
-
 - place: "Sidi Mohamed Ben Abdellah University"
   time: "2017 - 2019"
   title: "MSc. in Mathematics"
   subtitle: "Speciality: Statistics"
   category: "school"
-
 
 
 - place: "French National Centre for Scientific Research (CNRS)"
@@ -47,13 +42,11 @@ experiences:
   category: "work"
 
 
-
 - place: "Sidi Mohamed Ben Abdellah University"
   time: "2014 - 2017"
   title: "BSc. in Applied Mathematics"
   subtitle: "Thesis: Elliptic-curve cryptography <br/> Thesis Advisor: Siham Ezzouak"
   category: "school"
-
 
 
 - place: "Sidi Mohamed Ben Abdellah University"
