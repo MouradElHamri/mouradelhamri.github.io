@@ -114,11 +114,14 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-                  <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#about" | prepend: site.baseurl }}>About</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#About" | prepend: site.baseurl }}>About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#Bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#teaching" | prepend: site.baseurl }}>Teaching</a></li>
+                     <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#leasership" | prepend: site.baseurl }}>Leadership & Service
+</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>VitÆ</a></li>
         </ul>
       </div>
     </nav>
@@ -126,54 +129,9 @@
     {{ content}}
 
     <div class="footer">
-      <div class="row">
-        <div class="four columns">
-          {{ site.data.main_info.name }}
-        </div>
-       
-        <div class="four columns">
-          {{ site.data.main_info.email }}
-        </div>
-
-        <div class="four columns">      
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
-          
-             <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar fa" aria-hidden="true"></i>
-          </span>
-          
-          
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          
-          
-          <span onclick="window.open('{{ site.data.main_info.orcid }}')" style="cursor:
-pointer">
-           <i class="ai ai-orcid  fa" aria-hidden="true"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.dblp}}')" style="cursor:
-pointer">
-           <i class="ai ai-dblp fa" aria-hidden="true"></i>
-          </span>
-
-            
-           
-          
-          
-          </span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
+<p><span class="small"> This website was built with <a href="https://jekyllrb.com/" target="_blank">jekyll</a> based on a template by <a href="https://web.stanford.edu/~msaveski/" target="_blank">Martin Saveski.</a> </span></p>
+ 
+ 
   <!-- Google Analytics -->
   {% include google_analytics.html %}
 
