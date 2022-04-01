@@ -1,2 +1,31 @@
 projects:
- 
+
+  - title: "Hierarchical Optimal Transport for Unsupervised Domain Adaptation"
+    subtitle: ""
+    thumbnail: "assets/projects/HOT-DA/thumbnail.jpg"
+    url: "projects/HOT-DA.html"
+    selected: y
+    
+    
+
+    
+  - title: "Optimal Transport for Semi-Supervised Learning"
+    subtitle: ""
+    thumbnail: "assets/projects/OTP/thumbnail.jpg"
+    url: "projects/OTP.html"
+    selected: y
+    
+    
+    
+    
+    
+  - title: "Optimal Transport"
+    subtitle: ""
+    thumbnail: "assets/projects/OT/thumbnail.jpg"
+    url: "projects/OT.html"
+    selected: y
+    
+
+
+    
+    
