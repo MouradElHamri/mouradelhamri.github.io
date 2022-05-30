@@ -131,7 +131,7 @@ title: Home
     <div class="tab-pane active" id="projects-selected">
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% assign index_modulo = forloop.index0 | modulo:2 %}
         {% if index_modulo == 0 %}
           <div class="row">
         {% endif %}
