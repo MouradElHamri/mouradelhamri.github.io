@@ -1,9 +1,15 @@
 experiences:
 
-- place: "La Maison des Sciences Numériques"
-  time: "2020 - 2022"
-  title: "ML research scientist"
-  subtitle: "ADA Team"
+- place: "Sorbonne Paris Nord University"
+  time: "2022 - Present"
+  title: "Assistant Professor"
+  subtitle: "Department of Computer Science"
+  category: "work"
+
+- place: "DeepK"
+  time: "2022 - Present"
+  title: "Machine Learning research scientist"
+  subtitle: ""
   category: "work"
   
   

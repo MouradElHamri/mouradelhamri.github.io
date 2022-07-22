@@ -1,5 +1,10 @@
 papers:
 
+  - title: "Hierarchical Optimal Transport for Unsupervised Domain Adaptation"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "Machine Learning Journal. 2022."
+    selected: y
+
   - title: "Incremental Unsupervised Domain Adaptation Through Optimal Transport"
     authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "WCCI/IJCNN'22: World Congress on Computational Intelligence/IEEE International Joint Conference on Neural Networks. 2022."
@@ -9,13 +14,14 @@ papers:
   - title: "When Domain Adaptation Meets Semi-Supervised Learning Through Optimal Transport"
     authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "AIAI'22: IFIP International Conference on Artificial Intelligence Applications & Innovations. 2022."
+    paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-031-08333-4_5"
     selected: y
 
 
   - title: "An Optimal Transport Framework for Collaborative Multi-View Clustering"
     authors: "Fatima Ezzahraa Ben Bouazza, Younès Bennani, <b>Mourad El Hamri</b>"
     venue: "Book chapter in Recent Advancements in Multi-View Data Analytics. 2022."
-    paper_pdf: "https://link.springer.com/book/9783030952389"
+    paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-030-95239-6_5"
     selected: y
 
   - title: "Inductive Semi-supervised Learning Through Optimal Transport"
