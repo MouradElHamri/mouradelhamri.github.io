@@ -1,0 +1,102 @@
+fathers:
+
+- place: "Mourad El Hamri"
+  title: "Structural Optimal Transport for Domain Adaptation with Theoretical Guarantees"
+  subtitle: "Université Sorbonne Paris Nord - 2022"
+  category: "d"
+
+- place: "Younès Bennani"
+  title: "Approches connexionnistes pour la reconnaissance du locuteur: modélisation et identification"
+  subtitle: "Université Paris-Sud - 1992"
+  category: "g"
+  
+- place: "Françoise Fogelman-Soulié"
+  title: "Contributions à une théorie du calcul sur réseaux"
+  subtitle: "Université Joseph-Fourier - 1985"
+  category: "d"
+    
+
+- place: "François Robert"
+  title: "Étude et utilisation de normes vectorielles en analyse numérique linéaire"
+  subtitle: "Université Joseph-Fourier - 1968"
+  category: "g"
+
+
+
+- place: "Noël Gastinel"
+  title: "Matrices du second degré et normes générales en analyse numérique linéaire"
+  subtitle: "Université Joseph-Fourier - 1960"
+  category: "d"
+
+- place: "Jean Kuntzmann"
+  title: "Contribution à l'étude des systèmes multiformes"
+  subtitle: "Université de Paris - 1940"
+  category: "g"
+
+
+- place: "Georges Valiron"
+  title: "Sur les fonctions entières d'ordre nul et d'ordre fini et en particulier les fonctions à correspondance régulière"
+  subtitle: "Université de Paris - 1914"
+  category: "d"
+
+- place: "Émile Borel"
+  title: "Sur quelques points de la théorie des fonctions"
+  subtitle: "École Normale Supérieure Paris - 1893"
+  category: "g"
+
+- place: "Gaston Darboux"
+  title: "Sur les surfaces orthogonales"
+  subtitle: "École Normale Supérieure Paris - 1866"
+  category: "d"
+
+
+- place: "Michel Chasles"
+  title: "Not Reported"
+  subtitle: "École Polytechnique - 1814"
+  category: "g"
+
+
+- place: "Siméon Denis Poisson"
+  title: "Not Reported"
+  subtitle: "École Polytechnique - 1800"
+  category: "d"
+
+
+- place: "Joseph Louis Lagrange"
+  title: "Not Reported"
+  subtitle: "Università di Torino - 1754"
+  category: "g"
+
+
+- place: "Leonhard Euler"
+  title: "Dissertatio physica de sono"
+  subtitle: "Universität Basel - 1726"
+  category: "d"
+
+
+- place: "Johann Bernoulli"
+  title: "Dissertatio de effervescentia et fermentatione"
+  subtitle: "Universität Basel - 1690"
+  category: "g"
+
+- place: "Jacob Bernoulli"
+  title: "Solutionem tergemini problematis arithmetici, geometrici et astronomici"
+  subtitle: "Universität Basel - 1684"
+  category: "d"
+
+- place: "Gottfried Wilhelm Leibniz"
+  title: "Disputatio arithmetica de complexionibus"
+  subtitle: "Universität Leipzig - 1666"
+  category: "g"
+
+
+- place: "Erhard Weigel"
+  title: "De ascensionibus et descensionibus astronomicis dissertatio"
+  subtitle: "Universität Leipzig - 1650"
+  category: "d"
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+source:      .
+destination: ./_site
+includes:    ./_includes
+jekyll serve --baseurl: "mouradelhamri.github.io"
+
+collections:
+  projects:
+    output: true

@@ -1,0 +1,73 @@
+experiences:
+
+
+
+- place: "Associate Professor"
+  time: "2023 - Present"
+  title: "Paris Cité University"
+  subtitle: "Faculty of Pharmacy - BioSTM"
+  category: "work"
+
+
+- place: "Assistant Professor"
+  time: "2022 - 2023"
+  title: "Sorbonne Paris Nord University"
+  subtitle: "Department of Computer Science"
+  category: "work"
+
+  
+  
+- place: "Ph.D. in Computer Science"
+  time: "2019 - 2022"
+  title: "Sorbonne Paris Nord University"
+  subtitle: "Thesis: Structural Optimal Transport for Domain Adaptation with Theoretical Guarantees <br/> Thesis Advisor: Younès Bennani"
+  category: "school"
+
+    
+- place: "Graduate Teaching Assistant"
+  time: "2019 - 2022"
+  title: "Sorbonne Paris Nord University"
+  subtitle: "Department of Computer Science"
+  category: "work"
+
+  
+  
+- place: "Research Intern"
+  time: "Apr-Sep 2019"
+  title: "LIPN - CNRS UMR 7030"
+  subtitle: "French National Centre for Scientific Research <br/> Northern Paris Computer Science Lab <br/> Mentors: Younès Benanni, Basarab Matei"
+  category: "work"
+
+
+- place: "MSc. in Machine Learning"
+  time: "2018 - 2019"
+  title: "Sorbonne Paris Nord University"
+  subtitle: "Thesis: Learning from Learners through Optimal Transport Theory <br/> Thesis Advisor: Younès Bennani"
+  category: "school"
+
+
+- place: "MSc. in Applied Mathematics"
+  time: "2017 - 2019"
+  title: "Sidi Mohamed Ben Abdellah University"
+  subtitle: "Speciality: Statistics"
+  category: "school"
+
+
+- place: "Undergraduate Research Student"
+  time: "Jan-Jul 2017"
+  title: "Algebra, Geometry and Arithmetic Lab"
+  subtitle: "LAGA-FSDM <br/> Mentor: Siham Ezzouak"
+  category: "work"
+
+
+- place: "BSc. in Applied Mathematics"
+  time: "2014 - 2017"
+  title: "Sidi Mohamed Ben Abdellah University"
+  subtitle: "Thesis: Elliptic-curve cryptography <br/> Thesis Advisor: Siham Ezzouak"
+  category: "school"
+
+
+- place: "ASc. in Applied Mathematics"
+  time: "2014 - 2016"
+  title: "Sidi Mohamed Ben Abdellah University"
+  category: "school"

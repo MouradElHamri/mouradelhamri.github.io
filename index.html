@@ -1,0 +1,323 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== ABOUT ========== -->
+<div class="docs-section" id="About">
+  <h4>About</h4>
+  <p>
+I'm currently an Associate Professor at <a href="https://u-paris.fr" target="_blank">Paris Cité University</a>, affiliated with the BioSTM Lab and <a href="https://pharmacie.u-paris.fr" target="_blank">Paris Faculty of Pharmacy</a>. My research seeks to build machine learning models capable of approaching the performance of humain brain in terms of flexibility to changes in environments and tasks. 
+    </p>
+ Leveraging <a href="https://link.springer.com/book/10.1007/978-3-540-71050-9" target="_blank">Optimal Transport Theory</a>, I study methods for <a href="https://www.sciencedirect.com/book/9781785482366/advances-in-domain-adaptation-theory" target="_blank">Domain Adaptation</a> and <a href="https://www.cambridge.org/core/books/transfer-learning/CCFFAFE3CDBC245047F1DEC71D9EF3C7" target="_blank">Transfer Learning</a>. Optimal transport offers powerful geometrical tools that enable me to model tasks, compute solutions and provide theoretical guarantees for algorithms. In the past, I have worked on semi-supervised learning and various aspects of distributed unsupervised learning.
+  </p>
+Before my current position, I held the role of Assistant Professor at <a href="https://www.univ-paris13.fr/" target="_blank">Sorbonne Paris Nord University</a>. Prior to that, I obtained a <a href="https://www.theses.fr/s228286" target="_blank">Ph.D.</a>  and a Master's degree in Computer Science from <a href="https://www.univ-paris13.fr/" target="_blank">Sorbonne Paris Nord University</a>. Additionally, I possess Master's and Bachelor's degrees in Applied Mathematics from <a href="http://www.fsdmfes.ac.ma/" target="_blank"> Fez Faculty of Science</a>. 
+</div>
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>.
+  </p>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.arxiv %}
+              <a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>
+            {% endif %}
+            
+            
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+            
+            {% if paper.arxiv %}
+              <a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ========== PROJECTS ========== -->
+
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:2 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="six columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<!-- ========== TEACHING ========== -->
+<span class="anchor" id="teaching"></span>
+<div class="docs-section">
+  <h4>Teaching</h4>
+  
+  <blockquote>
+  To teach is to learn twice over
+    <p>
+  - Joseph Joubert
+  </blockquote>
+
+  <p>
+	I mostly teach statistics and machine learning at <a href="https://u-paris.fr" target="_blank">Paris Cité University</a>. 
+  <p>
+Among others, I have TA'd the following courses at <a href="https://www.univ-paris13.fr/" target="_blank">Sorbonne Paris Nord University</a>:
+  <ul>
+<li> <a href="https://www.math.univ-paris13.fr/masters/M2_Donnees_Numeriques_English.html">Master 2 EID2</a> and <a href="https://www.math.univ-paris13.fr/masters/Masters_M2_donnees.html">Master 2 MMD</a>: Deep Learning
+<li> <a href="https://www.math.univ-paris13.fr/masters/M2_Donnees_Numeriques_English.html">Master 2 EID2</a> and <a href="https://www.math.univ-paris13.fr/masters/Masters_M2_donnees.html">Master 2 MMD</a>: Statistical learning
+<li> <a href="https://www.math.univ-paris13.fr/masters/M2_Donnees_Numeriques_English.html">Master 2 EID2</a> and <a href="https://www.math.univ-paris13.fr/masters/Masters_M2_donnees.html">Master 2 MMD</a>: Data Science 
+<li> <a href="https://www.math.univ-paris13.fr/masters/M2_Donnees_Numeriques_English.html">Master 2 EID2</a> and <a href="https://www.math.univ-paris13.fr/masters/Masters_M2_donnees.html">Master 2 MMD</a>: Multidimensional Exploratory Statistics
+<li> <a href="https://galilee.univ-paris13.fr/master/master-informatique/">Master 1 Informatique</a>: Matrix Methods in Data Mining 
+<li> Licence 3: Databases
+<li> Licence 3: Data Visualisation 
+<li> Licence 1: UNIX Environment
+<li> Licence 1: Numerical Linear Algebra 
+<li> Licence 1: C Programming Language
+<li> Licence 1: Imperative Programming  
+<li> Cycle d'ing 1: Algorithms
+<li> Cycle d'ing 1: MATLAB
+<li> Cycle d'ing 1: Python
+</ul>
+
+</p>
+
+</div>
+
+
+
+
+<!-- ========== Advising ========== -->
+<span class="anchor" id="advise"></span>
+<div class="docs-section">
+  <h4>Advising</h4>
+  <ul>
+  I was in charge in 2021 and 2022 of the co-supervision of two MSc students as part of the Erasmus+ Mobility Program:
+</p>
+<li> Hamid AHAGGACH, Master's thesis. Now a PhD student at Bourgogne University.
+<li> Omar Ghannou, Master's thesis. Now a PhD student at Aix-Marseille University.
+</div>
+
+
+
+
+
+
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+
+  <p>Full Resume in French: <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  
+  
+
+</p>
+
+</div>
+
+
+  <!-- ========== Academic Genealogy ========== -->
+<div class="docs-section" id="gene">
+  <h4>Academic Genealogy</h4>
+<p>
+  My academic genealogy (adviser relations) backs to 17 generations over 370 years, in the following reverse chronological order:
+
+  <ul>
+<!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.genealogy.fathers %}
+    <li>
+      {% if exp.category == "g" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

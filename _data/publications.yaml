@@ -1,0 +1,69 @@
+papers:
+
+  - title: "Structural Optimal Transport for Domain Adaptation with Theoretical Guarantees"
+    authors: "<b>Mourad El Hamri</b>"
+    venue: "Ph.D. Thesis."
+    paper_pdf: "assets/publications/PhD_Thesis.pdf"
+    selected: y
+
+  - title: "Theoretical Guarantees for Domain Adaptation with Hierarchical Optimal Transport"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "Submitted to Machine Learning Journal."
+    paper_pdf: "https://arxiv.org/pdf/2210.13331.pdf"
+    selected: y
+    
+  - title: "Hierarchical Optimal Transport for Unsupervised Domain Adaptation"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "Machine Learning Journal. 2022."
+    paper_pdf: "https://link.springer.com/epdf/10.1007/s10994-022-06231-7?sharing_token=5KMbAMtierNFq35OeUAWjfe4RwlQNchNByi7wbcMAY4aFGMZX_sO0EIK99ntYPkMYzXtkFkqugmL2fT9sEs_y_d6bet0LSH8N8qVH2nw49bnuFB5I0_VIqDE0gpPP6UPe8bqKy7maf-FV2VycKwxquel8HBwgbHkrpqUUeeSdtg%3D"
+    code: "https://github.com/MouradElHamri/HOT-DA"
+    selected: y
+
+  - title: "Incremental Unsupervised Domain Adaptation Through Optimal Transport"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "WCCI/IJCNN'22: World Congress on Computational Intelligence/IEEE International Joint Conference on Neural Networks. 2022."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9892735"
+    selected: y
+
+  - title: "When Domain Adaptation Meets Semi-Supervised Learning Through Optimal Transport"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "AIAI'22: IFIP International Conference on Artificial Intelligence Applications & Innovations. 2022."
+    paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-031-08333-4_5"
+    selected: y
+
+
+  - title: "An Optimal Transport Framework for Collaborative Multi-View Clustering"
+    authors: "Fatima Ezzahraa Ben Bouazza, Younès Bennani, <b>Mourad El Hamri</b>"
+    venue: "Book chapter in Recent Advancements in Multi-View Data Analytics. 2022."
+    paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-030-95239-6_5"
+    selected: y
+
+  - title: "Inductive Semi-supervised Learning Through Optimal Transport"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "ICONIP'21: International Conference on Neural Information Processing. 2021."
+    paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-030-92307-5_78"
+    arxiv: "https://arxiv.org/pdf/2112.07262.pdf"
+    code: "https://github.com/MouradElHamri/OTI"
+    selected: y
+
+  - title: "Apprentissage semi-supervisé transductif basé sur le transport optimal"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "CIFSD'21: Conférence Internationale Francophone sur la Science des Données. 2021."
+    paper_pdf: "https://hal.archives-ouvertes.fr/hal-03274095/document#page=24"
+    selected: y
+
+  - title: "Label Propagation Through Optimal Transport"
+    authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
+    venue: "IJCNN'21: IEEE International Joint Conference on Neural Networks. 2021."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9533521"
+    arxiv: "https://arxiv.org/pdf/2110.01446.pdf"
+    code: "https://github.com/MouradElHamri/OTP"
+    selected: y
+
+  - title: "Multi-view Clustering Through Optimal Transport"
+    authors: "Fatima Ezzahraa Ben Bouazza, Younès Bennani, <b>Mourad El Hamri</b>"
+    venue: "Australian Journal of Intelligent Information Processing Systems. 2019."
+    paper_pdf: "http://ajiips.com.au/papers/V15.3/v15n3_5-13.pdf"
+    selected: y
+
+
