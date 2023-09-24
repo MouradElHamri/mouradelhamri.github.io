@@ -42,7 +42,6 @@ papers:
     authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "ICONIP'21: International Conference on Neural Information Processing. 2021."
     paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-030-92307-5_78"
-    arxiv: "https://arxiv.org/pdf/2112.07262.pdf"
     code: "https://github.com/MouradElHamri/OTI"
     selected: y
 
@@ -56,7 +55,6 @@ papers:
     authors: "<b>Mourad El Hamri</b>, Younès Bennani, Issam Falih"
     venue: "IJCNN'21: IEEE International Joint Conference on Neural Networks. 2021."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9533521"
-    arxiv: "https://arxiv.org/pdf/2110.01446.pdf"
     code: "https://github.com/MouradElHamri/OTP"
     selected: y
 
