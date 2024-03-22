@@ -1,5 +1,13 @@
 projects:
 
+  - title: "Wasserstein Geodesic Interpolation for Gradual Domain Adaptation"
+    subtitle: ""
+    thumbnail: "assets/projects/GRADOT/thumbnail.jpeg"
+    url: "projects/GRADOT.html"
+    selected: y
+
+
+
   - title: "Hierarchical Optimal Transport for Unsupervised Domain Adaptation"
     subtitle: ""
     thumbnail: "assets/projects/HOT-DA/thumbnail.jpg"

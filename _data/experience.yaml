@@ -5,14 +5,14 @@ experiences:
 - place: "Associate Professor"
   time: "2023 - Present"
   title: "Paris Cité University"
-  subtitle: "Faculty of Pharmacy - BioSTM"
+  subtitle: "Faculty of Pharmacy - BioSTM UR 7537"
   category: "work"
 
 
 - place: "Assistant Professor [ATER]"
   time: "2022 - 2023"
   title: "Sorbonne Paris Nord University"
-  subtitle: "Department of Computer Science - LIPN"
+  subtitle: "Department of Computer Science - LIPN UMR 7030"
   category: "work"
 
   
@@ -34,7 +34,7 @@ experiences:
   
 - place: "Research Intern"
   time: "Apr-Sep 2019"
-  title: "LIPN - CNRS UMR 7030"
+  title: "LIPN UMR CNRS 7030"
   subtitle: "Northern Paris Computer Science Lab <br/> French National Centre for Scientific Research"
   category: "work"
 
