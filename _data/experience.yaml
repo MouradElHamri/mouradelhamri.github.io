@@ -20,7 +20,17 @@ experiences:
 - place: "Ph.D. in Computer Science"
   time: "2019 - 2022"
   title: "Sorbonne Paris Nord University"
-  subtitle: "Thesis: Structural Optimal Transport for Domain Adaptation with Theoretical Guarantees <br/> Thesis Advisor: Younès Bennani"
+  subtitle: "Thesis: Structural Optimal Transport for Domain Adaptation with Theoretical Guarantees <br/> <br/> Thesis defense committee members:
+<br/> Mathilde Mougeot, École Normale Supérieure Paris-Saclay (Chair)
+<br/> Nicolas Courty, Université Bretagne Sud (Reviewer)
+<br/> Marc Sebban, Université Jean Monnet (Reviewer)
+<br/> Gabriel Peyré, École Normale Supérieure de Paris (Examiner)
+<br/> Yann Guermeur, LORIA - CNRS (Examiner)
+<br/> Basarab Matei, Université Sorbonne Paris Nord (Examiner)
+<br/> Abdelfattah Touzani, USMBA (Examiner)
+<br/> Nicoleta Rogovschi, Université Paris Cité (Examiner)
+<br/> Younès Bennani, Université Sorbonne Paris Nord (Advisor)
+<br/> Issam Falih, Université Clermont Auvergne (Co-Advisor)"
   category: "school"
 
     
@@ -42,7 +52,7 @@ experiences:
 - place: "MSc. in Machine Learning"
   time: "2018 - 2019"
   title: "Sorbonne Paris Nord University"
-  subtitle: "Thesis: Learning from Learners through Optimal Transport <br/> Thesis Advisor: Younès Bennani"
+  subtitle: "Thesis: Learning from Learners through Optimal Transport"
   category: "school"
 
 
@@ -55,7 +65,7 @@ experiences:
 
 - place: "Undergraduate Research Student"
   time: "Jan-Jul 2017"
-  title: "LAGA"
+  title: "Sidi Mohamed Ben Abdellah University"
   subtitle: "Algebra, Geometry and Arithmetic Lab <br/> Fez Faculty of Science"
   category: "work"
 
@@ -70,4 +80,5 @@ experiences:
 - place: "ASc. in Applied Mathematics"
   time: "2014 - 2016"
   title: "Sidi Mohamed Ben Abdellah University"
+  subtitle: "Speciality: Statistics"
   category: "school"
